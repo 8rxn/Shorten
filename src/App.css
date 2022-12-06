@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+*{
+  padding:0;margin:0;
+  background-color: #2B3A55;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.result-box{
+  padding:10px;
+  height: fit-content;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.shortlinkbox{
+  display:block;
+  width:70%;
+  min-height:4.5vh;
+  border: 2px solid black;
+  border-radius: 25px;
+  background-color: #E8C4C4;
+  color:black;
+
 }
+
+.form-control{
+  background-color: #E8C4C4 !important;
+}
+
+
+.btn{
+  background-color: transparent;
+  color:white;
+  
+}
+
+.copy-button{
+  background-color: #CE7777;
+}
+
+.mynavbar{
+  background-color: #CE7777;
+}
+
+#CopyButton{
+  background-color: #2B3A55 !important;
+  border:0px !important;
+
+}
+#CopyButtonText{
+  background-color: transparent;
+}
+
+#shortURL{
+  background-color: transparent;
+
+}
+
+.navbar{
+width:100%;
+background-color: #F2E5E5;
+}
+
+.heading{
+  background-color: transparent;
+  /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  color:black;
+}
+
+.footer{
+  width:100%;
+}
+
+#selftag-footer{
+  cursor:pointer !important; 
+  text-align: center;
+  color:#CE7777;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+ .pview{
+  display: flex !important;
+  align-items:flex-start !important;
+  justify-content: center !important;
+ }
+}
+
+

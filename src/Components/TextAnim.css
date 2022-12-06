@@ -1,0 +1,101 @@
+@keyframes typing {
+    0%, 43% {content:" "}
+    0.5%, 42.5% {content:"g"}
+    01%, 42% {content:"gi"}
+    01.5%, 41.5% {content:"git"}
+    02%, 41% {content:"gith"}
+    02.5%, 40.5% {content:"githu"}
+    03%, 40% {content:"github"}
+    03.5%, 39.5% {content:"github."}
+    04%, 39% {content:"github.c"}
+    04.5%, 38.5% {content:"github.co"}
+    05%, 38% {content:"github.com"}
+    05.5%, 37.5% {content:"github.com/"}
+    06%, 37% {content:"github.com/8"}
+    06.5%, 36.5% {content:"github.com/8r"}
+    07%, 36% {content:"github.com/8rx"}
+    07.5%, 35.5% {content:"github.com/8rxn"}
+    08%, 35% {content:"github.com/8rxn/"}
+    08.5%, 34.5% {content:"github.com/8rxn/q"}
+    09%, 34% {content:"github.com/8rxn/qr"}
+    9.5%, 33.5% {content:"github.com/8rxn/qrg"}
+    10%, 33% {content:"github.com/8rxn/qrge"}
+    10.5%, 32.5% {content:"github.com/8rxn/qrgen"}
+    11%, 32% {content:"github.com/8rxn/qrgen/"}
+    11.5%, 31.5% {content:"github.com/8rxn/qrgen/b"}
+    12%, 31% {content:"github.com/8rxn/qrgen/bl"}
+    12.5%, 30.5% {content:"github.com/8rxn/qrgen/blo"}
+    13%, 30% {content:"github.com/8rxn/qrgen/blob"}
+    13.5%, 29.5% {content:"github.com/8rxn/qrgen/blob/"}
+    14%, 29% {content:"github.com/8rxn/qrgen/blob/m"}
+    14.5%, 28.5% {content:"github.com/8rxn/qrgen/blob/ma"}
+    15%, 28% {content:"github.com/8rxn/qrgen/blob/mas"}
+    15.5%, 27.5% {content:"github.com/8rxn/qrgen/blob/mast"}
+    16%, 27% {content:"github.com/8rxn/qrgen/blob/maste"}
+    16.5%, 26.5% {content:"github.com/8rxn/qrgen/blob/master"}
+    17%, 26% {content:"github.com/8rxn/qrgen/blob/master/"}
+    17.5%, 25.5% {content:"github.com/8rxn/qrgen/blob/master/R"}
+    18%, 25% {content:"github.com/8rxn/qrgen/blob/master/RE"}
+    18.5%, 24.5% {content:"github.com/8rxn/qrgen/blob/master/REA"}
+    19%, 24% {content:"github.com/8rxn/qrgen/blob/master/READ"}
+    19.5%, 23.5% {content:"github.com/8rxn/qrgen/blob/master/READM"}
+    20%, 23% {content:"github.com/8rxn/qrgen/blob/master/README"}
+    20.5%, 22.5% {content:"github.com/8rxn/qrgen/blob/master/README."}
+    21%, 22% {content:"github.com/8rxn/qrgen/blob/master/README.m"}
+    21.5%, 21.5% {content:"github.com/8rxn/qrgen/blob/master/README.md"}
+
+    50%, 84% {content:" "}
+    51%, 83% {content:"g"}
+    52%, 82% {content:"go"}
+    53%, 81% {content:"goo"}
+    54%, 80% {content:"gool"}
+    55%, 79% {content:"gooln"}
+    56%, 78% {content:"goolnk"}
+    57%, 77% {content:"goolnk."}
+    58%, 76% {content:"goolnk.c"}
+    59%, 75% {content:"goolnk.co"}
+    60%, 74% {content:"goolnk.com"}
+    61%, 73% {content:"goolnk.com/"}
+    62%, 72% {content:"goolnk.com/y"}
+    63%, 71% {content:"goolnk.com/yQ"}
+    64%, 70% {content:"goolnk.com/yQB"}
+    65%, 69% {content:"goolnk.com/yQBg"}
+    66%, 68% {content:"goolnk.com/yQBgl"}
+    67%, 67% {content:"goolnk.com/yQBgl6"}
+
+    86%,98%{content:"S"}
+    87%,97%{content:"Sh"}
+    88%,96%{content:"Sho"}
+    89%,95%{content:"Shor"}
+    90%,94%{content:"Short"}
+    91%,93%{content:"Shorte"}
+    92%,92%{content:"Shorten"}
+  }
+  
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+  
+  .typewriter {
+    --caret: currentcolor;
+  }
+  
+  .typewriter::before {
+    content: "";
+    animation: typing 13.5s infinite;
+  }
+  
+  .typewriter::after {
+    content: "";
+    border-right: 1px solid var(--caret);
+    animation: blink 0.5s linear infinite;
+  }
+  
+
+  .textAnim{
+    width:40vw;
+    display: inline-block;
+    word-wrap: break-word !important;
+    height: 40vh;
+  }
