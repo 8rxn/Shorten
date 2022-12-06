@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Shorten/static/css/main.c8d354cc.css",
+    "main.js": "/Shorten/static/js/main.c3f6feaf.js",
+    "static/js/787.a757bf17.chunk.js": "/Shorten/static/js/787.a757bf17.chunk.js",
+    "index.html": "/Shorten/index.html",
+    "main.c8d354cc.css.map": "/Shorten/static/css/main.c8d354cc.css.map",
+    "main.c3f6feaf.js.map": "/Shorten/static/js/main.c3f6feaf.js.map",
+    "787.a757bf17.chunk.js.map": "/Shorten/static/js/787.a757bf17.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8d354cc.css",
+    "static/js/main.c3f6feaf.js"
+  ]
+}
